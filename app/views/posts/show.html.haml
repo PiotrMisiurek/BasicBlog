@@ -1,0 +1,15 @@
+%p#notice= notice
+
+.well.post
+  %h3= @post.title
+  %p= @post.content
+  .row
+    .col-md-3.col-md-offset-9
+      .right.btn-group{"aria-label" => "Controls", :role => "group"}
+        = link_to 'Edit', edit_post_path(@post), :class => "btn btn-default"
+        = link_to 'Delete', @post, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger"
+
+%hr
+
+= render 'comments/comments'
+= render 'comments/form'

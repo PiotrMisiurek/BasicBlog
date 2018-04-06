@@ -1,0 +1,11 @@
+.well.comments
+  %h3 Add comment
+  = form_for([@post, @post.comments.build]) do |f|
+    .field
+      = f.label :username
+      = f.text_field(:username, {:class => "form-control"})
+    .field
+      = f.label :content
+      = f.text_area(:content, {:class => "form-control"})
+    .actions
+      = f.submit('Comment', {:class => "btn btn-primary"})

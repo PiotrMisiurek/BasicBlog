@@ -1,0 +1,33 @@
+!!! 5
+%html
+  %head
+    %title BasicBlog
+    = csrf_meta_tags
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = stylesheet_link_tag    'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+
+  %body
+    %nav.navbar.navbar-inverse
+      .container
+        .navbar-header
+          %button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          = link_to 'BasicBlog', home_path, :class => "navbar-brand"
+        #navbar.collapse.navbar-collapse
+          %ul.nav.navbar-nav
+            %li
+              = link_to 'Home', home_path
+          %ul.nav.navbar-nav.navbar-right
+            %li
+              = link_to 'Create post', new_post_path
+    .container
+      = yield
+    %footer.footer
+      .container
+        %p Simple & lightweight blog written in Ruby on Rails
+        %p BasicBlog © 2018

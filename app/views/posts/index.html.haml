@@ -1,0 +1,11 @@
+%p#notice= notice
+
+%h1.page-title Blog posts
+
+= @posts.each do |post|
+  .well.post
+    %h3= post.title
+    %p= post.content
+    .row
+      .col-md-3.col-md-offset-9
+        = link_to 'Read more', post, :class => "btn btn-default right"

@@ -1,0 +1,8 @@
+.well.comments
+  %h3 Comments
+  = @post.comments.each do |comment|
+    .well.comment
+      %p
+        %strong= comment.username + ":"
+        = comment.content
+      = link_to 'Delete', [comment.post, comment], method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger"

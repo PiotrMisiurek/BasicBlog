@@ -2,8 +2,8 @@
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
@@ -13,3 +13,124 @@
  *= require_tree .
  *= require_self
  */
+
+hr
+{
+	margin: 30px 0 !important;
+	border-top: 1px solid #333 !important;
+}
+
+.right
+{
+    float: right;
+}
+
+.inline
+{
+    display: inline-block;
+}
+
+.navbar
+{
+	border-radius: 0 !important;
+}
+
+.btn
+{
+	border-radius: 50px !important;
+	padding: 5px 15px !important;
+}
+
+.btn-group .btn
+{
+	margin-left: 5px !important;
+}
+
+.well
+{
+	border-radius: 0 !important;
+}
+
+.footer
+{
+	position: relative;
+	width: 100%;
+	margin-top: 40px;
+	background-color: #101010;
+}
+
+.footer .container
+{
+	padding: 25px;
+	text-align: center;
+	color: #9d9d9d;
+}
+
+.footer .container p
+{
+	margin: 0;
+}
+
+.page-title
+{
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bolder;
+	margin: 30px 0 40px;
+}
+
+.post
+{
+	padding: 30px !important;
+	background-color: #202020 !important;
+	color: #bcbcbc;
+}
+
+.post h3
+{
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #ddd;
+}
+
+.post p
+{
+	text-align: justify;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.resize-v
+{
+	resize: vertical;
+}
+
+.well
+{
+	background-color: #202020 !important;
+	padding: 30px !important;
+	color: #bcbcbc !important;
+}
+
+.well.comments h3
+{
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #ddd;
+}
+
+.well.comment
+{
+	background-color: #fff !important;
+	border: 0;
+	color: #202020 !important;
+	padding: 20px;
+}
+
+.well.comment p
+{
+	font-size: 14px;
+}
