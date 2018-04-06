@@ -652,7 +652,7 @@
         null,
         null
       ],
-      "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/spec/views/posts/edit.html.erb_spec.rb": [
+      "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/spec/views/posts/edit.html.haml_spec.rb": [
         1,
         null,
         1,
@@ -675,7 +675,7 @@
         null,
         null
       ],
-      "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/spec/views/posts/index.html.erb_spec.rb": [
+      "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/spec/views/posts/index.html.haml_spec.rb": [
         1,
         null,
         1,
@@ -695,11 +695,11 @@
         1,
         1,
         1,
-        0,
+        1,
         null,
         null
       ],
-      "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/spec/views/posts/new.html.erb_spec.rb": [
+      "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/spec/views/posts/new.html.haml_spec.rb": [
         1,
         null,
         1,
@@ -722,7 +722,7 @@
         null,
         null
       ],
-      "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/spec/views/posts/show.html.erb_spec.rb": [
+      "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/spec/views/posts/show.html.haml_spec.rb": [
         1,
         null,
         1,
@@ -741,6 +741,6 @@
         null
       ]
     },
-    "timestamp": 1523008121
+    "timestamp": 1523008885
   }
 }
