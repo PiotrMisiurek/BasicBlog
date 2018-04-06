@@ -6,7 +6,7 @@ FactoryBot.define do
   end
 
   factory :post do
-    title 'Title'
+    title "Title"
     content "Content"
   end
 end
