@@ -24,22 +24,28 @@ require 'rails_helper'
 # `rails-controller-testing` gem.
 
 RSpec.describe PostsController, type: :controller do
-
   # This should return the minimal set of attributes required to create a valid
   # Post. As you add validations to Post, be sure to
   # adjust the attributes here as well.
-  let(:valid_attributes) {
-    skip("Add a hash of attributes valid for your model")
-  }
+  let(:valid_attributes) { {
+      title: "Title",
+      content: "Sample content"
+  } }
 
-  let(:invalid_attributes) {
-    skip("Add a hash of attributes invalid for your model")
-  }
+  let(:invalid_attributes) { {
+    title: ""
+  } }
 
   # This should return the minimal set of values that should be in the session
   # in order to pass any filters (e.g. authentication) defined in
   # PostsController. Be sure to keep this updated too.
-  let(:valid_session) { {} }
+  
+  let(:valid_session) {
+  }
+
+  before do
+    @request.env["HTTP_AUTHORIZATION"] = "Basic " + Base64::encode64(ENV['ADMIN_LOGIN'] + ":" + ENV['ADMIN_PASSWORD'])
+  end
 
   describe "GET #index" do
     it "returns a success response" do
@@ -96,15 +102,15 @@ RSpec.describe PostsController, type: :controller do
 
   describe "PUT #update" do
     context "with valid params" do
-      let(:new_attributes) {
-        skip("Add a hash of attributes valid for your model")
-      }
+      let(:new_attributes) { {
+        title: "New title",
+        content: "New sample content"
+      } }
 
       it "updates the requested post" do
         post = Post.create! valid_attributes
         put :update, params: {id: post.to_param, post: new_attributes}, session: valid_session
         post.reload
-        skip("Add assertions for updated state")
       end
 
       it "redirects to the post" do
