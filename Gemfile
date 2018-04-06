@@ -43,6 +43,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'rspec-rails', '~> 3.7'
+  gem 'rspec-collection_matchers', '~> 1.1', '>= 1.1.3'
   gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
   gem 'simplecov', '~> 0.16.1'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

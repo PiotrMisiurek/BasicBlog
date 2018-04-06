@@ -250,7 +250,10 @@
       "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/config/routes.rb": [
         1,
         1,
+        1,
         null,
+        null,
+        1,
         null
       ],
       "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/app/helpers/application_helper.rb": [
@@ -267,6 +270,25 @@
       ],
       "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/app/controllers/comments_controller.rb": [
         1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
         null
       ],
       "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/app/controllers/application_controller.rb": [
@@ -420,21 +442,22 @@
       "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/app/controllers/posts_controller.rb": [
         1,
         1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
         1,
         null,
         null,
         null,
         1,
         1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        0,
         null,
         null,
         null,
@@ -507,7 +530,6 @@
         null,
         null,
         1,
-        1,
         null
       ],
       "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/spec/helpers/posts_helper_spec.rb": [
@@ -524,13 +546,11 @@
         null,
         null,
         1,
-        1,
         null
       ],
       "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/spec/models/comment_spec.rb": [
         1,
         null,
-        1,
         1,
         null
       ],
@@ -549,9 +569,33 @@
         null,
         1,
         1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "C:/Users/Jonasz/Dropbox/Ragnarson/RailsProjects/BasicBlog/app/models/post.rb": [
+        1,
+        1,
+        1,
         1,
         null
       ],
@@ -651,7 +695,7 @@
         1,
         1,
         1,
-        1,
+        0,
         null,
         null
       ],
@@ -697,6 +741,6 @@
         null
       ]
     },
-    "timestamp": 1523003374
+    "timestamp": 1523008121
   }
 }
