@@ -44,6 +44,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'rspec-rails', '~> 3.7'
   gem 'rspec-collection_matchers', '~> 1.1', '>= 1.1.3'
+  gem 'factory_bot_rails', '~> 4.8', '>= 4.8.2'
   gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
   gem 'simplecov', '~> 0.16.1'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
